@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="new">
+    <section class="notice">
+        <h1 class="hnotice">About BMI</h1>
+        <p class="pnotice"> Body Mass Index <span>(BMI)</span> is an inexpensive<br /> and easy screening method for weight category :<br /> <ul class="ul"><li>underweight</li><li>healthy weight</li> <li>overweight</li><li>obesity</li></ul></p> <p class="pnotice">In fact it does not measure body fat directly, still moderately correlated with more direct measures of body fat. Furthermore, BMI appears to be as strongly correlated with various metabolic and disease outcome as are these more direct measures of body fatness.</p>
+        <h6><span>disclaimer: </span>This calculator version works only on adults.</h6>
+        <a class="done" href="#">done</a>
+    </section>
+    <section class="result">
+        <img src="./images/bmi-removebg-preview.png" alt="bmi circle">
+        <p class="title"></p>
+    </section>
+    <section class="info">
+        <div>
+            <input type="text" placeholder="weight"id="we">
+            <button id="weight" class="btn" >kg/lb</button>
+            <div class="drop weight">
+                <a href="#" id="kg" class="weight1">kg</a>
+                <a href="#" id="lb" class="weight1">lb</a>
+            </div>
+        </div>
+        <div>
+            <input type="text" placeholder="height" id="he">
+            <button id="height" class="btn1" >cm/inch</button>
+            <div class="drop height">
+                <a href="#" id="cm" class="height1">cm</a>
+                <a href="#" id="inch" class="height1">inch</a>
+            </div>
+        </div>
+        <a href="#" class="calculate">calculate</a>
+    </section>
+    <section class="more">
+        
+        <div class="why">
+            <h3>why healthy weight?</h3>
+            <p>Maintaining a healthy weight is essential because it contributes significantly to our well-being. Not only does it lower the risk of chronic health problems, but it also positively influences our self-esteem and body image. A healthy weight promotes a sense of confidence and allows us to fully engage in life's activities. By prioritizing a balanced weight, we invest in our physical and emotional health, enabling us to lead a more fulfilling and active life.</p>
+        </div>
+        <div class="how">
+            <h3>how to keep healthy</h3>
+            <p>Hydration is key - aim for 1.5L to 2L of water daily. Coupled with a diet rich in protein and salads, shun junk food; remember, what you consume reflects not only in your energy but also in your radiant complexion. Boost your fitness by staying active - movement enhances endurance. And most importantly, be kind to yourself - strict diets aren't the answer. Prioritize sustainable choices for a healthier you.</p> 
+        </div>
+    </section>
+    <section class="ideal">
+        <div>
+            <a href="#" class="idealWeight">get ideal weight</a>
+        </div>
+        <p>👆🏻</p>
+    </section>
+    <section class="fema">
+        <div>
+            <button class="gen women">female ♀️</button>
+            <button class="gen men">male ♂️</button>
+        </div>
+    </section>
+    <section class="resF">
+        <div class="note">
+      
+            <div id="note"> 
+               <h4 class="important">Your ideal weight : <span id="res"></span></h4>
+                This result was given to you based on <span class="h">Hamwi formula</span>.<br />
+                Please note that even though this formula is based on scientific facts, it is still invalid. The human body does not all work the same way due to major factor such as stress,..
+            </div>
+        
+            <div class="doctor">
+                A doctor's visit for personalized weight and diet advice is crucial. Expertise in factors like age, health, and activity tailors effective management, lowering risks.
+            </div>
+        </div>
+        <a href="#" class="last">check this</a>
+    </section>
+    <footer style="margin-top: 3%;padding: 6%; text-align: center;"> This additional question's purpose is to increase the accuracy of the result.</footer>
+
+    <section class="noted">
+        <p>
+            Keeping in shape is an endeavor that combines dedication, consistency, and self-discovery.<br /><br /> The journey to maintaining physical fitness is often a multifaceted struggle, encompassing both physical and mental challenges.<br /><br /> From battling the allure of sedentary habits to overcoming the occasional wavering motivation, every step towards a healthier self is a triumph in itself.<br/><br /> Embracing this path requires a shift in mindset, acknowledging that progress is a product of small, sustainable choices rather than rapid transformations. <br /> <br />  Remember, even on days when fatigue sets in or obstacles seem insurmountable, your commitment to your well-being speaks volumes about your resilience. Each workout, each wholesome meal, and each moment you choose movement is a step towards the best version of yourself. <br/><br /> Embrace the journey, for it's not just about physical change, but about the empowerment that comes from pushing your limits and realizing your inner strength.<br /><br /> You've got this one choice at a time, one rep at a time, one day at a time. Your body and mind will thank you for the effort you invest in yourself.<br /> Wish you luck
+        </p>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./index.js" ></script>
+</body>
+</html>
